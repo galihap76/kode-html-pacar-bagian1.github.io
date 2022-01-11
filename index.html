@@ -1,0 +1,32 @@
+<!doctype html>
+   <html>
+  <head>
+    <title>Sayang</title>
+  </head>   
+    
+  <body>         
+      <form>
+          <center>
+          <h1></h1>
+      <button type="button">Klik Aku</button>
+          </center>
+      </form>
+
+      <script>
+      let btn = document.getElementsByTagName('button')[0];
+      let h1 = document.getElementsByTagName('h1')[0];
+          
+        btn.addEventListener('click', function(){
+            setTimeout(function(){
+                h1.innerHTML = "Halo sayang :D";
+            }, 100);
+            setTimeout(function(){
+               h1.innerHTML = " Aku mencintaimu :D";
+            }, 1500);
+            setTimeout(function(){
+               h1.innerHTML = " Jangan pernah tinggalin aku yah :)";
+            }, 3000);
+        });
+      </script>
+  </body>
+</html>
